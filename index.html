@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>TeyvaTweets</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index_mobile.css">
+
+<script src="js/model/profile.js"></script>
+<script src="js/model/tweet.js"></script>
+<script src="js/database/init.js"></script>
+<script src="js/index.js"></script>
+
+<body onLoad="constructTweets(); resetScroll();">
+
+    <div id="top">
+        <div>
+            <img id="icon" src="images/icon.png" />
+            <span class="title">TeyvaTweets</span>
+        </div>
+        <span class="subtext">© <a href="https://zhongrin.tumblr.com/">zhongrin</a> | 2023 ◆ made for <a href="">zhongrin's Surprise 7k Milestone Event</a></span>
+    </div>
+
+    <div id="content">
+        <div id="tweets" class="tweets">
+            
+            <!-- <div class="tweet" onclick="changePage('tweet-thread', '1')">
+                <img src="images/pfp/default.jpg" class="pfp50" />
+                <div class="right">
+                    <div class="row1">
+                        <span id="name" class="name">meirin</span>
+                        <span id="username" class="grey"><span>@</span>zhongrin</span>
+                        <span class="grey">·</span>
+                        <span class="grey">2h</span>
+                    </div>
+                    <div class="row2">Content here content here<br>Content here</div>
+                    <div class="row3">
+                        <img src="images/tweet/zhongli.jpg" class="contentimg" />
+                    </div>
+                    <div class="row4">
+                        <span class="col1">
+                            <img src="images/icons/reply.svg" class="icon" />
+                            <span>12</span>
+                        </span>
+                        <span class="col2">
+                            <img src="images/icons/like.svg" class="icon" />
+                            <span>1241</span>
+                        </span>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+
+        <div id="replies" class="replies hidden">
+
+            <!-- <div class="back">
+                <span onclick="changePage('tweets')">←</span>
+            </div>
+            
+            <div class="header tweet" style="display: block;">
+                <div style="display: flex;">
+                    <img src="images/pfp/default.jpg" class="pfp50" />
+                    <div class="right">
+                        <div class="row1">
+                            <div id="name" class="name">meirin</div>
+                            <div id="username" class="grey"><span>@</span>zhongrin</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="height:20px;"></div>
+                <div class="row2">Content here content here<br>Content here</div>
+                <div class="row3">
+                    <img src="images/tweet/zhongli.jpg" class="contentimg" />
+                </div>
+                <div class="row4">
+                    <span><span style="font-weight: 700; color: #e7e9ea">1241</span> Likes</span>
+                </div>
+            </div>
+
+            <div class="reply tweet">
+                <img src="images/pfp/default.jpg" class="pfp50" />
+                <div class="right">
+                    <div class="row1">
+                        <span id="name" class="name">meirin</span>
+                        <span id="username" class="grey"><span>@</span>zhongrin</span>
+                        <span class="grey">·</span>
+                        <span class="grey">2h</span>
+                    </div>
+                    <div class="row2">Content here content here<br>Content here</div>
+                    <div class="row3">
+                        <img src="images/tweet/zhongli.jpg" class="contentimg" />
+                    </div>
+                    <div class="row4">
+                        <span class="col1">
+                            <img src="images/icons/reply.svg" class="icon" />
+                            <span>12</span>
+                        </span>
+                        <span class="col2">
+                            <img src="images/icons/like.svg" class="icon" />
+                            <span>1241</span>
+                        </span>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div id="modal-content" class="modal-content">
+            <span class="close-button back" onclick="toggleModal()">x</span>
+            <div id="profile" class="profile">
+
+                <!-- <div class="header"><img src="images/header/meirin.jpeg" /></div>
+                <img src="images/pfp/default.jpg" class="pfp100" />
+                <div class="details">
+                    <div class="name">mei</div>
+                    <div class="username">@zhongrin</div>
+                    <div class="description">Some description here</div>
+                    <div class="location">
+                        <img src="images/icons/location.svg" class="icon" />
+                        <span>Liyue</span>
+                    </div>
+                    <div class="follow-count">
+                        <strong>144</strong>
+                        <span class="grey">Following</span>
+                        <strong>221</strong>
+                        <span class="grey">Followers</span>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div> 
+
+</body>
+</html>
