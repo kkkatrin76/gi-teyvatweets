@@ -397,4 +397,4 @@ Tweets.push(new Tweet(
 //     return t;
 // });
 // console.log("After Profiles preloading");
-preload_image("images/tweet/zhongli1.jpeg");
+// preload_image("images/tweet/zhongli1.jpeg");

@@ -87,7 +87,7 @@ async function preload_image(im_url) {
 // console.log("After Profiles preloading");
 // or do the top ones only?
 // how to do loading screen?? any listeners we can listen to??
-preload_image("images/pfp/zhongli.jpeg");
-preload_image("images/pfp/meirin.jpeg");
-preload_image("images/pfp/albedoshusband.jpeg");
-preload_image("images/pfp/alhaitham.jpeg");
+// preload_image("images/pfp/zhongli.jpeg");
+// preload_image("images/pfp/meirin.jpeg");
+// preload_image("images/pfp/albedoshusband.jpeg");
+// preload_image("images/pfp/alhaitham.jpeg");
