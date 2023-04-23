@@ -1,25 +1,30 @@
-// Initialize Profiles (Characters)
-// => id, username, name, picture="default.jpg", header="default.jpg", description, location,
-//    following, followers
-var Profiles = [], j = 0;
-var alhaitham   = new Profile(++j, "scribealhaitham", "Al Haitham", "alhaitham.jpeg", "alhaitham.jpeg", "I was forced to partake in this.", "Sumeru", 28);
-var childe      = new Profile(++j, "tartartartaglia", "Childe 🐳", "childe.jpeg", "childe.jpeg", "Stay still girlie ;) | pfp @tart____a", "Liyue");
-var cyno        = new Profile(++j, "gm_cyno", "Cyno", "cyno.jpeg", undefined, "Be careful of the religious group who has been going around to make people's life harder on purpose: The Diffi Cult.");
-var kaveh       = new Profile(++j, "kavvvvveh", "🌻 Kaveh 🌹", "kaveh.png");
-var nahida      = new Profile(++j, "dendro_archon", "🍀 Lesser Lord Kusanali 🌵", "nahida.jpeg", "nahida.jpeg", "Sumeru's Dendro Archon. It is nice to meet you!", "Sanctuary of Surasthana");
-var tighnari    = new Profile(++j, "bigtallears", "Tighnari 🌳🏕", "tighnari.jpeg", "tighnari.jpeg", "Chief Officer of the Forest Rangers", "Avidya Forest");
-var xiao        = new Profile(++j, "demonconqueror", "Xiao", "xiao.jpeg", "", undefined, "Liyue");
-var yunjin      = new Profile(++j, "yunjin_yunhanopera", "云堇 | Yun-Han Opera Troupe", "yunjin.jpeg", "yunjin.jpeg", "Director, playwright, and singer of the Yun-Han Opera Troupe. Follow to get notified of our next performance at Heyu Tea House!", "Liyue Harbor");
-var zhongli     = new Profile(++j, "notrexlapis", "Zhongli 🔸 Wangsheng Funeral Parlor Consultant", "zhongli.jpeg", "zhongli.jpeg", "Greetings. Wangsheng Funeral Parlor welcomes you anytime (Director Hu asked me to put this).", "Liyue Harbor", 45);
-
-// Initialize Profiles (People)
-var meirin      = new Profile(++j, "zhongrinofficial", "✾ mei/rin ✾", "meirin.png", "meirin.jpeg", "developer. zhongrin teahouse co-owner. wife of <span class='tag'>@notrexlapis</span> 💍💞", "Liyue");
-
-Profiles.push(alhaitham, childe, cyno, kaveh, nahida, tighnari, xiao, yunjin, zhongli);
-Profiles.push(meirin);
 
 // Initialize Tweets
 // => id, profile, content, timestamp, image=null, likes, replies
+//
+// Tweets.push(new Tweet(
+//     ++i,
+//     xxx,
+//     "",
+//     "30m",
+//     null,
+//     0,
+//     [
+//         new Tweet(
+//             ++i,
+//             xxx,
+//             "",
+//             "12m",
+//         ),
+//         new Tweet(
+//             ++i,
+//             xxx,
+//             "",
+//             "24m",
+//         ),
+//     ]
+// )) 
+//
 var Tweets = [], i = 0;
 
 Tweets.push(new Tweet(
@@ -70,6 +75,52 @@ Tweets.push(new Tweet(
     ]
 ))
 
+Tweets.push(new Tweet(
+    ++i,
+    albedoshusband,
+    "i'm crying i just saw the chief alchemist in the favonius library should i approach him",
+    "38m",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            albedo,
+            "Ah, was it you who were looking at me from two table across? It's nice to meet you.",
+            "35m",
+        ),
+        new Tweet(
+            ++i,
+            albedoshusband,
+            "omhsldfjklsdjhfajosfk hi hi hello",
+            "35m",
+        ),
+        new Tweet(
+            ++i,
+            albedo,
+            "Your sketches were very nice. Perhaps the next time you see me at the library, we can exchange art tips? I would like to learn how you manage to do such vibrant and pleasing coloring on your artworks.",
+            "34m",
+        ),
+        new Tweet(
+            ++i,
+            albedo,
+            "Please feel free to approach me. I'll be waiting.",
+            "34m",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "Ohoho? ;) I see spring has come to our favorite clief alchemist~",
+            "33m",
+        ),
+        new Tweet(
+            ++i,
+            albedo,
+            "<span class='tag'>@kaeyalberich</span> It's currently autumn.",
+            "29m",
+        ),
+    ]
+)) 
 
 Tweets.push(new Tweet(
     ++i,
@@ -105,6 +156,29 @@ Tweets.push(new Tweet(
         ),
     ]
 ))
+
+Tweets.push(new Tweet(
+    ++i,
+    StarySkies,
+    "..so I heard the sky is fake..<span class='tag'>@kof_albedo</span> wanna test that out with me 😼",
+    "1h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            albedo,
+            "Interesting. How would you propose to do this? I will be at my Dragonspine lab; you can always drop in whenever, starlight.",
+            "1h",
+        ),
+        new Tweet(
+            ++i,
+            lisa,
+            "Oh dear. Sweeties, if you ever need any love advices, please feel free to come to me, alright?",
+            "1h",
+        ),
+    ]
+)) 
 
 Tweets.push(new Tweet(
     ++i,
