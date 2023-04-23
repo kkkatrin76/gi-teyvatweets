@@ -80,7 +80,7 @@ body {
 }
 .tweet .pfp50 {
     height: 50px;
-    weight: 50px;
+    width: 50px;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -92,10 +92,6 @@ body {
     text-decoration: none;
     transition: 1s;
 }
-/* .tweet .name a:visited {
-    color: rgb(231, 233, 234);
-    transition: 1s;
-} */
 .tweet .name:hover {
     text-decoration: underline;
     transition: 1s;
@@ -194,17 +190,9 @@ body {
 }
 .close-button {
     float: right;
-    /* width: 1.5rem; */
-    /* line-height: 1.5rem; */
-    /* text-align: center; */
     cursor: pointer;
     padding: 0px;
-    /* border-radius: 0.25rem;
-    background-color: lightgray; */
 }
-/* .close-button:hover {
-    background-color: darkgray;
-} */
 .show-modal {
     opacity: 1;
     visibility: visible;
