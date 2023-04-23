@@ -154,10 +154,6 @@ body {
     border-top: solid 1px #3e3e3e;
     border-bottom: solid 1px #3e3e3e;
 }
-#replies .tweet .contentimg {
-    width: 460px;
-    max-width: 460px;
-}
 
 /* Modal (Profile) Styles */
 .trigger {
