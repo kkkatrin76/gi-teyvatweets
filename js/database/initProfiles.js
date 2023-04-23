@@ -27,7 +27,7 @@ var yunjin      = new Profile(++j, "yunjin_yunhanopera", "云堇 | Yun-Han Opera
 var zhongli     = new Profile(++j, "notrexlapis", "Zhongli 🔸 Wangsheng Funeral Parlor Consultant", "zhongli.jpeg", "zhongli.jpeg", "Greetings. Wangsheng Funeral Parlor welcomes you anytime (Director Hu asked me to put this).", "Liyue Harbor", 45);
 
 // Initialize Profiles (People)
-var meirin      = new Profile(++j, "zhongrinofficial", "✾ mei/rin ✾ <span class='vip'>👑</span>", "meirin.png", "meirin.jpeg", "developer. zhongrin teahouse co-owner. wife of <span class='tag'>@notrexlapis</span> 💍💞", "Liyue");
+var meirin      = new Profile(++j, "zhongrinofficial", "✾ mei/rin ✾ <span class='vip'>👑</span>", "meirin.jpeg", "meirin.jpeg", "developer. zhongrin teahouse co-owner. wife of <span class='tag'>@notrexlapis</span> 💍💞", "Liyue");
 var albedoshusband = new Profile(++j, "albedoshusband", "misha <3 <span class='vip'>🌟</span>", "albedoshusband.jpeg", undefined, "i'm totally straight ", "albedo's DMs");
 var StarySkies = new Profile(++j, "StarySkies", "Starz", "StarySkies.jpeg", undefined, "The moon sure is beautiful, huh? <br></br>(Beware I will go batshit insane one day L)", "TEYVAT I DONT KNOW SOBS");
 var BitesTheDust = new Profile(++j, "BitesTheDust", "Dust <span class='vip'>🌟</span>", "BitesTheDust.jpeg", undefined, "", "Mondstadt");
@@ -78,10 +78,16 @@ async function preload_image(im_url) {
     }
     return "Ok";
 }
-console.log("Before Profiles preloading");
-Profiles.map(async(p) => {
-    await preload_image(p.getter("picture"));
-    await preload_image(p.getter("header"));
-    return p;
-});
-console.log("After Profiles preloading");
+// console.log("Before Profiles preloading");
+// Profiles.map(async(p) => {
+//     await preload_image(p.getter("picture"));
+//     await preload_image(p.getter("header"));
+//     return p;
+// });
+// console.log("After Profiles preloading");
+// or do the top ones only?
+// how to do loading screen?? any listeners we can listen to??
+preload_image("images/pfp/zhongli.jpeg");
+preload_image("images/pfp/meirin.jpeg");
+preload_image("images/pfp/albedoshusband.jpeg");
+preload_image("images/pfp/alhaitham.jpeg");
