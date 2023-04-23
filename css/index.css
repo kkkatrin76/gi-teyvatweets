@@ -20,6 +20,14 @@ body {
     color: rgb(72, 155,233);
 }
 
+.vip {
+    font-size: 0.75em;
+    background-color: rgb(55 124 190);
+    border-radius: 10px;
+    padding: 2px 7px;
+    color: rgb(231, 233, 234);
+}
+
 #top {
     top: 0;
     position: sticky;
@@ -102,6 +110,19 @@ body {
     transition: 1s;
 }
 .tweet .grey a:visited {
+    color: rgb(114, 118, 122);
+    transition: 1s;
+}
+.tweet a {
+    color: rgb(114, 118, 122);
+    text-decoration: none;
+    transition: 1s;
+}
+.tweet a:hover, .tweet a:visited:hover {
+    color: #e7e9ea;
+    transition: 1s;
+}
+.tweet a:visited {
     color: rgb(114, 118, 122);
     transition: 1s;
 }
