@@ -70,14 +70,18 @@ Profiles.push(meirin, albedoshusband, StarySkies, BitesTheDust, heartstringed_bo
     CyanocittaCristata, iamurworstnightmare, nia_ama, creamstewoah, imunlaukrknight, froggy, Zatara,
     dendrodame, blue_rain, moraxsbrowserhistory, cloudedxreality);
 
-// TODO: loop through Profiles and preload images
+// Loop through Profiles and preload images
 async function preload_image(im_url) {
-    let img = new Image();
-    img.src = im_url;
+    if (im_url) {
+        let img = new Image();
+        img.src = im_url;
+    }
     return "Ok";
 }
+console.log("Before Profiles preloading");
 Profiles.map(async(p) => {
     await preload_image(p.getter("picture"));
     await preload_image(p.getter("header"));
     return p;
 });
+console.log("After Profiles preloading");

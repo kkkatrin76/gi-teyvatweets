@@ -386,3 +386,14 @@ Tweets.push(new Tweet(
         ),
     ]
 ))
+
+
+
+
+// Loop through Tweets and preload images
+console.log("Before Tweets preloading");
+Tweets.map(async(t) => {
+    await preload_image(t.getter("image"));
+    return t;
+});
+console.log("After Profiles preloading");
