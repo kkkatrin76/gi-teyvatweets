@@ -6,7 +6,7 @@
 //     ++i,
 //     xxx,
 //     "",
-//     "30m",
+//     "4h",
 //     null,
 //     0,
 //     [
@@ -14,13 +14,13 @@
 //             ++i,
 //             xxx,
 //             "",
-//             "12m",
+//             "4h",
 //         ),
 //         new Tweet(
 //             ++i,
 //             xxx,
 //             "",
-//             "24m",
+//             "4h",
 //         ),
 //     ]
 // ))
@@ -58,7 +58,7 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             iamurworstnightmare,
-            "Indeed. Very riveting. Yes. Very intriguing. *sips tea*",
+            "indeed. very riveting. yes. very intriguing. very.... (sips tea) (dreamy sigh)",
             "3m",
         ),
         new Tweet(
@@ -90,6 +90,18 @@ Tweets.push(new Tweet(
             childe,
             "ARCHONS ABOVE GET A ROOM",
             "40m",
+        ),
+        new Tweet(
+            ++i,
+            the_travelling_witch,
+            "<span class='tag'>@tartartartaglia</span> Let them continue :)",
+            "39m",
+        ),
+        new Tweet(
+            ++i,
+            childe,
+            "<span class='tag'>@the_travelling_witch</span> yes love sorry love <333333",
+            "39m",
         ),
     ]
 ))
@@ -299,28 +311,198 @@ Tweets.push(new Tweet(
     ]
 ))
 
-// Tweets.push(new Tweet(
-//     ++i,
-//     xxx,
-//     "",
-//     "30m",
-//     null,
-//     0,
-//     [
-//         new Tweet(
-//             ++i,
-//             xxx,
-//             "",
-//             "12m",
-//         ),
-//         new Tweet(
-//             ++i,
-//             xxx,
-//             "",
-//             "24m",
-//         ),
-//     ]
-// ))
+Tweets.push(new Tweet(
+    ++i,
+    heartstringed_boo,
+    "hey <span class='tag'>@scribealhaitham</span>, are you a library book? cause i can't stop checking you out ;)",
+    "2h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Why are you like this.",
+            "2h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Why don't you come back to Sumeru then. I'd imagine it's difficult for you to 'check me out' while being so far away in Inazuma.",
+            "2h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "Translation: he misses you lol",
+            "2h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "That is the most misguided translation I've ever seen. Not choosing to enrol in the Haravatat Darshan was a good judgment on your part, I'll give you that.",
+            "2h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "🖕",
+            "2h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    soleilune,
+    "at a funeral rn and an anemo vision just appeared yall wtf bartibatos couldnt even wait for another hour 😭😭",
+    "3h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            meirin,
+            "man barberos is ruthless",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            aether,
+            "Who???",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            lumine,
+            "Burtbeetoss",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            stonyballs,
+            "Isn't it bobertos? You mean the anemo archon, right?",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "no no guys it's barbietoes the anemo archon",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            randomnpc62883,
+            "Lucky. Wish I had an anemo vision ;(",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "it's ok if your bff dies in some kind of a tragic accident you'll probably get one 👍🏻",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            aether,
+            "Venti???????? ?? ?",
+            "3h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Kalpalata2107,
+    "Just saw some guy with the most impressive hat I’ve ever seen beat the shit out of two Fatui twice his size. Help, I think I might be a little bit in love???",
+    "3h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            wanderer,
+            "oh, so that pest hiding behind a tree was you? don't you know the fatui are dangerous people? what kind of moron strolls about without any weapon near a fatui camp?",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            wanderer,
+            "next time at least hire a bodyguard or bring some weapon to protect yourself, idiot.",
+            "3h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    celestiebestie,
+    "abt to pay for a funeral for a bug I found on the floor so that cute consultant at wangsheng funeral parlor will have to talk to me 🤭",
+    "3h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            hutao,
+            "<span class='tag'>@notrexlapis</span> Talk <3",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Yes? How may The Wangsheng Funeral Parlor be of service to you today Miss <span class='tag'>@celestiebestie</span>?",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            hutao,
+            "Mr. Zhongli....... Read the main Tweet :))",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "<span class='tag'>@hutaosintaon</span> Apologies, Director Hu.",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "<span class='tag'>@celestiebestie</span> Thank you for your kind words. A funeral for a bug is indeed almost unheard of, especially since it does not seem to be your pet or something along those lines. While I appreciate the sentiment, you need not create an excuse just to talk to me. I am always happy to connect with more people and hear their tales. How does tonight at 7pm at the Three Round Knockout sound?",
+            "3h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    taromao,
+    "just went to the crafting table in the plaza and timaeus thought i was going to talk to him AGAIN.",
+    "3h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            sucrose,
+            "I think he's just excited to have a friend to talk to! He told me you were looking for me? Sorry I wasn't around, I've been stuck in the lab with my experiments...",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "More workplace gossip, how fun :)",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
+            diluc,
+            "<span class='tag'>@kaeyalberich</span> Stop poking your nose in other people's business.",
+            "3h",
+        ),
+    ]
+))
 
 Tweets.push(new Tweet(
     ++i,
@@ -380,6 +562,12 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
+            creamstewoah,
+            "can attest, best grandparents 2023 \<3",
+            "3h",
+        ),
+        new Tweet(
+            ++i,
             childe,
             ";(((",
             "3h",
@@ -387,14 +575,180 @@ Tweets.push(new Tweet(
     ]
 ))
 
+Tweets.push(new Tweet(
+    ++i,
+    kaeyatiddiesgobrrr,
+    "the things i'd do for kaeya alberich istg",
+    "4h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            kaeya,
+            "Oh I know, princess ;)",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "But also could you please change that abhorrent profile picture, please. I'll even model a new one for you. We can have those infamous matching profile pictures? Please? Pretty please with a valberry on top? 🥺",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            albedoshusband,
+            "<span class='tag'>@kaeyalberich</span> sir may i get a lesson in flirting 101",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "I'm afraid contrary to popular belief that is not my field of expertise... <span class='tag'>@librarianlady</span> help?",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            lisa,
+            "Well, based on what I've seen in the library, I think you're going to need to talk to him first, sweetie.",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            jean,
+            "<span class='tag'>@kaeyalberich</span> <span class='tag'>@librarianlady</span> We're in the middle of a meeting. Get back to work please, you two...",
+            "4h",
+        ),
+        
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    stonyballs,
+    "SOBBING why did i choose to study in the chasm i keep getting jumpscared by overgrown lizards &lt;//3 at least the mushrooms taste good-i hope the giant talking mushroom doesn't catch me eating them",
+    "4h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            aether,
+            "Oh archons we're about to get yet another commission to go rescue someone in The Chasm again aren't we....",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            xingqiu,
+            "May I know what made you choose to study in the Chasm of all places?",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            stonyballs,
+            "hey it's cool and quiet (well aside from the occasional weird lizard's screeches and stuff)",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            xingqiu,
+            "Is that so....",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            xingqiu,
+            "<span class='tag'>@spiritblade_exorcist</span> Want to deep dive into The Chasm? Heard it's a good place to concentrate. Mayhaps I'll finally be able to read my books in peace 😌",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            chongyun,
+            "Do... Do I even have the option to refuse...",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            xingqiu,
+            "See you in 10 mins!!",
+            "4h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Crystalflygeo,
+    "I was just in Liyue for a little time off the Akademiya but I found my senior and now I'm INVESTED in Guili Plains history and their ancient tablets. I think I might want to change the topic of my thesis help???? She says I should talk to a gentleman named Zhongli hmmmmm",
+    "4h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            iamurworstnightmare,
+            "<span class='tag'>@notrexlapis</span>",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Ah, good day. Yes, I do happen to be quite knowledgeable about Guili Plains and the stories behind the stone tablets scattered around the area. If you would like to discuss more, please feel free to drop by the Wangsheng Funeral Parlor in Liyue Harbor anytime.",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            hutao,
+            "A scholar dying from their thesis! Oooh yay new client!! Good job Mr. Zhongli!!!",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            Crystalflygeo,
+            "What did I just get myself into",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Please do not mind the Director.",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            hutao,
+            "We have special clients for those who doesn't reside in Liyue!! :D",
+            "4h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Director Hu. Please.",
+            "4h",
+        ),
+    ]
+))
 
 
+// aine @zhongli
+// zhongli 
+// hutao 
+// crys 
+// zhongli 
+// hutao 
+// zhongli 
 
-// Loop through Tweets and preload images
-// console.log("Before Tweets preloading");
+
+// cy.jpeg
+// https://twitter.com/snow28751902/status/1615147882935615489
+
+// TODO: Loop through Tweets and preload images
 // Tweets.map(async(t) => {
 //     await preload_image(t.getter("image"));
 //     return t;
 // });
-// console.log("After Profiles preloading");
+
+// or do the top ones only?
 // preload_image("images/tweet/zhongli1.jpeg");
+
+// or might need to do pagination? ;w;
