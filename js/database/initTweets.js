@@ -743,12 +743,12 @@ Tweets.push(new Tweet(
 // https://twitter.com/snow28751902/status/1615147882935615489
 
 // TODO: Loop through Tweets and preload images
-Tweets.map(async(t) => {
-    await preload_image(t.getter("image"));
-    return t;
-});
+// Tweets.map(async(t) => {
+//     await preload_image(t.getter("image"));
+//     return t;
+// });
 
 // or do the top ones only?
-// preload_image("images/tweet/zhongli1.jpeg");
+preload_image("images/tweet/zhongli1.jpeg");
 
 // or might need to do pagination? ;w;
