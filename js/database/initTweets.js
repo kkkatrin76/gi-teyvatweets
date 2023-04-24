@@ -749,6 +749,6 @@ Tweets.push(new Tweet(
 // });
 
 // or do the top ones only?
-preload_image("images/tweet/zhongli1.jpeg");
+// preload_image("images/tweet/zhongli1.jpeg");
 
 // or might need to do pagination? ;w;
