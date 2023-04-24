@@ -82,8 +82,8 @@ var Pinkybabe = new Profile(++j, "Pinkybabe", "Viyy", "Pinkybabe.jpeg", undefine
 
 var WeaselTrainer = new Profile(++j, "WeaselTrainer", "Your Lost & Found 😉", "WeaselTrainer.jpeg", undefined, "Hi! I train weasel around the world to find lost itens. If you lost something you may contact me and we will find your belongings for the right price!");
 var naleyuh = new Profile(++j, "naleyuh", "mommynaia", "naleyuh.jpeg", undefined, "Cyno's mother. Seriously, why do people ask if I'm kidding?", "Sumeru");
-var unknownyoa = new Profile(++j, "unknown-y.o.a.", "rizz? i hardly know her", "unknownyoa.jpeg", undefined, "welcome to hell, bitch<br>sorry if i dont reply right away im terminally online but also dont like talking to people", "in the middle of the desert help");
-var Ineedalifepls = new Profile(++j, "Ineedalife.pls", "Ew", "Ineedalifepls.jpeg", undefined, "", "6 ft under");
+var unknownyoa = new Profile(++j, "unknown-y.o.a.", "rizz? i hardly know her", undefined, undefined, "welcome to hell, bitch<br>sorry if i dont reply right away im terminally online but also dont like talking to people", "in the middle of the desert help");
+var Ineedalifepls = new Profile(++j, "Ineedalife.pls", "Ew", undefined, undefined, "", "6 ft under");
 var N3r05352 = new Profile(++j, "N3r0@5352", "Nero <span class='vip'>🌟</span>", "N3r05352.jpeg", undefined, "BioChemist of the KOF! Resident Artist and Science geek!", "Dragonspine");
 var kisakiss = new Profile(++j, "kisakiss", "kisaki", "kisakiss.jpeg", undefined, "questions life everyday.", "mondstadt");
 var kazugoober = new Profile(++j, "kazugoober", "avo", "kazugoober.jpeg", undefined, "lovergirl era", "On the Cathedral");
@@ -109,10 +109,19 @@ Profiles.push(
 
 
 // TODO: Loop through Profiles and preload images
+let preloadedImageMax = 0, preloadedImageNumber = 0;
+function imagePreloaded() {
+    ++preloadedImageNumber;
+    if (preloadedImageMax === preloadedImageNumber) {
+        console.log("DONE PREOADING ALL IMAGES")
+    }
+}
 async function preload_image(im_url) {
     if (im_url) {
+        ++preloadedImageMax;
         let img = new Image();
         img.src = im_url;
+        img.onload = imagePreloaded;
     }
     return "Ok";
 }
