@@ -116,22 +116,22 @@ Profiles.push(
 //         console.log("DONE PREOADING ALL IMAGES")
 //     }
 // }
-async function preload_image(im_url) {
-    if (im_url) {
-        // ++preloadedImageMax;
-        let img = new Image();
-        img.src = im_url;
-        // img.onload = imagePreloaded;
-    }
-    return "Ok";
-}
+// async function preload_image(im_url) {
+//     if (im_url) {
+//         // ++preloadedImageMax;
+//         let img = new Image();
+//         img.src = im_url;
+//         // img.onload = imagePreloaded;
+//     }
+//     return "Ok";
+// }
 
 // how to do loading screen?? any listeners we can listen to??
-Profiles.map(async(p) => {
-    // await preload_image(p.getter("picture"));
-    await preload_image(p.getter("header"));
-    return p;
-});
+// Profiles.map(async(p) => {
+//     await preload_image(p.getter("picture"));
+//     await preload_image(p.getter("header"));
+//     return p;
+// });
 
 // or do the top ones only?
 preload_image("images/pfp/zhongli.jpeg");
