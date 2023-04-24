@@ -96,7 +96,8 @@ Profiles.push(
     lisa, lumine, nahida, pantalone, sucrose, tighnari, venti, wanderer, xiao, xingqiu, yunjin, zhongli
 );
 Profiles.push(
-    meirin, albedoshusband, StarySkies, BitesTheDust, heartstringed_boo, soleilune, Kalpalata2107, 
+    meirin, randomnpc62883,
+    albedoshusband, StarySkies, BitesTheDust, heartstringed_boo, soleilune, Kalpalata2107, 
     celestiebestie, taromao, kaeyatiddiesgobrrr, stonyballs, Crystalflygeo, dinasaurusrex, solxilynx, graybun,
     Explodingalchemist, YingYue, tsumimin13, lilyluvs, amurtacoco, Reicrane, wwflwr, Silentmoth, CyanocittaCristata,
     iamurworstnightmare, nia_ama, creamstewoah, imunlaukrknight, froggy, Zatara, dendrodame, blue_rain,
@@ -117,11 +118,11 @@ async function preload_image(im_url) {
 }
 
 // how to do loading screen?? any listeners we can listen to??
-// Profiles.map(async(p) => {
-//     await preload_image(p.getter("picture"));
-//     await preload_image(p.getter("header"));
-//     return p;
-// });
+Profiles.map(async(p) => {
+    await preload_image(p.getter("picture"));
+    await preload_image(p.getter("header"));
+    return p;
+});
 
 // or do the top ones only?
 // preload_image("images/pfp/zhongli.jpeg");
