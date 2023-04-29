@@ -8,6 +8,8 @@ var Profiles = [], j = 0;
 var aether      = new Profile(++j, "travelaether", "Traveler", "aether.jpeg", "aether.jpeg", "Just an ordinary Traveler.");
 var albedo      = new Profile(++j, "kof_albedo", "Albedo Kreideprinz ⟡ KOF", "albedo.jpeg", "albedo.jpeg", "Greetings.", "Mondstadt", 12);
 var alhaitham   = new Profile(++j, "scribealhaitham", "Al Haitham", "alhaitham.jpeg", "alhaitham.jpeg", "I was forced to partake in this.", "Sumeru", 28);
+var amber       = new Profile(++j, "outrideramber", "Amber 🏹🔥", "amber.jpeg", "amber.jpeg", "Knights of Favonius' Outrider at your service!", "Mondstadt");
+var baizhu      = new Profile(++j, "dr_baizhu", "Baizhu | Medicine Practicioner", "baizhu.jpeg", "baizhu.jpeg", "Please feel free to visit Bubu Pharmacy if you feel unwell, even if you don't have any mora to spare. Your wellbeing should be the utmost priority.", "Bubu Pharmacy, Liyue Harbor");
 var childe      = new Profile(++j, "tartartartaglia", "Childe 🐳", "childe.jpeg", "childe.jpeg", "Stay still girlie ;) | pfp @tart____a", "Liyue");
 var chongyun    = new Profile(++j, "spiritblade_exorcist", "Ch☯ngyun", "chongyun.jpeg", "chongyun.jpeg", "PM me if you need help with vanquishing evil spirits!");
 var cyno        = new Profile(++j, "gm_cyno", "Cyno", "cyno.jpeg", undefined, "Be careful of the religious group who has been going around to make people's life harder on purpose: The Diffi Cult.");
@@ -89,7 +91,9 @@ var kisakiss = new Profile(++j, "kisakiss", "kisaki", "kisakiss.jpeg", undefined
 var kazugoober = new Profile(++j, "kazugoober", "avo", "kazugoober.jpeg", undefined, "lovergirl era", "On the Cathedral");
 var Scaramood = new Profile(++j, "Scaramood", "Ames <span class='vip'>🌟</span>", "Scaramood.jpeg", undefined, "I'm funny. Don't believe anyone that says i'm not. I'm funny...");
 var the_travelling_witch = new Profile(++j, "the_travelling_witch", "Holly <span class='vip'>🌟</span>", "the_travelling_witch.jpeg", undefined, "no firstborns as payment please, i only take cash or credit (unless your name is xiao or childe, i’d take you too, in more ways than one)", "The Grand Narukami Shrine");
-// var xxx = new Profile(++j, "xxx", "name", "xxx.jpeg", undefined, "", "");
+var kazuuaki = new Profile(++j, "kazuuaki", "kazu <span class='vip'>🌟</span>", "kazuuaki.jpeg", undefined, "Idk what to put here tbh JDSJ", "Your heart <3");
+
+var xxx = new Profile(++j, "xxx", "name", undefined, undefined, "", "");
 
 Profiles.push(
     aether, albedo, alhaitham, childe, chongyun, cyno, diluc, dottore, fatui, heizou, hutao, jean, kaveh, kaeya, 
@@ -107,34 +111,3 @@ Profiles.push(
 );
 
 
-
-// TODO: Loop through Profiles and preload images
-// let preloadedImageMax = 0, preloadedImageNumber = 0;
-// function imagePreloaded() {
-//     ++preloadedImageNumber;
-//     if (preloadedImageMax === preloadedImageNumber) {
-//         console.log("DONE PREOADING ALL IMAGES")
-//     }
-// }
-// async function preload_image(im_url) {
-//     if (im_url) {
-//         // ++preloadedImageMax;
-//         let img = new Image();
-//         img.src = im_url;
-//         // img.onload = imagePreloaded;
-//     }
-//     return "Ok";
-// }
-
-// how to do loading screen?? any listeners we can listen to??
-// Profiles.map(async(p) => {
-//     await preload_image(p.getter("picture"));
-//     await preload_image(p.getter("header"));
-//     return p;
-// });
-
-// or do the top ones only?
-// preload_image("images/pfp/zhongli.jpeg");
-// preload_image("images/pfp/meirin.jpeg");
-// preload_image("images/pfp/albedoshusband.jpeg");
-// preload_image("images/pfp/alhaitham.jpeg");

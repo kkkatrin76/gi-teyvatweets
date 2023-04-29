@@ -24,9 +24,6 @@
 //         ),
 //     ]
 // ))
-//
-// <span class='tag'>@tartartartaglia</span>
-//
 var Tweets = [], i = 0;
 
 Tweets.push(new Tweet(
@@ -729,26 +726,1042 @@ Tweets.push(new Tweet(
     ]
 ))
 
+Tweets.push(new Tweet(
+    ++i,
+    dinasaurusrex,
+    "don't tell haitham but i cried on his book so now it's ruined wtf do i do pls help",
+    "5h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            alhaitham,
+            "It's just a regular book, it's fine. What I don't understand is why would you cry over a botany book. Does the thought of the near-extinct plants almost ceasing to exist saddens you?",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            "I can't lie, sometimes it does.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "I see. I presume it's the same feeling one gets when their limited edition hardcover copy of 'The Concept of Scientific Law in the Philosophy of Science and Epistemology' gets drooled on by a very tired freeloader who hasn't slept in three days.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "IT WAS JUST THAT ONE TIME AND BESIDES THAT BOOK WAS HARD AS FUCK AND IT SCRATCHED MY CHEEK SO WE'RE EVEN",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Considering the price of the book, no, it really isn't.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "my beauty cream cost just as much and the proceeds goes to funding the restoration of the rainforests. what does your stupid book do? save world hunger?? smh",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "It educates people. Unfortunately, it seems to have failed to educate you.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "SHUT UP",
+            "5h",
+        ),
+    ]
+))
 
-// aine @zhongli
-// zhongli 
-// hutao 
-// crys 
-// zhongli 
-// hutao 
-// zhongli 
+Tweets.push(new Tweet(
+    ++i,
+    solxilynx,
+    "Help me archons I just wanna do my job, and the client I'm meeting is this rat bastard.<br><br>Guys, if I disappear, contact Heizou and tell him he has yet to pay me my fees in full. I have a feeling this man's going to be a pai—",
+    "5h",
+    "images/tweet/solxilynx.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            pantalone,
+            "🙂",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "UHHHH <span class='tag'>@shikanoin_heizou</span> <span class='tag'>@shikanoin_heizou</span> <span class='tag'>@shikanoin_heizou</span>",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            heizou,
+            "🔍 On it, thank you for bringing this into my attention.",
+            "7h",
+        ),
+    ]
+))
 
+Tweets.push(new Tweet(
+    ++i,
+    graybun,
+    "diluc call me",
+    "5h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            diluc,
+            "Yes, beloved? If you need anything, I can send my falcon over.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "Caw caw",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            diluc,
+            "I will not comment on that.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            ":((",
+            "5h",
+        ),
+    ]
+))
 
+Tweets.push(new Tweet(
+    ++i,
+    Explodingalchemist,
+    "GET ME OUT OF DRAGONSPINE WHY IS THIS MAN ASKING TO RESEARCH ME RAHHHH 😭😭 PLEASE I JUST CAME HERE TO LOOK FOR CRIMSOJ AGATE",
+    "5h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            albedo,
+            "My apologies, I did not mean to come off as insistent. I was merely curious of how the Kätzlein clans regulate their body temperatures on colder climates, seeing as cats in general do not deal well with temperatures belog 45 degrees. You also seemed rather cold, so I was just trying to offer you a warming potion. I apologize if I offended you.",
+            "5h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    YingYue,
+    "Zhongli, oh i hate that man, Hate the way he makes my heart race every time i see him",
+    "5h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            zhongli,
+            "Oh dear, my apologies, Miss Ying Yue. I was under the impression we were having a great time discussing the history of the founding of Liyue. I did not realize I had offended you in the process. Please accept my sincerest apologies. Your statement about your heart rate is quite concerning, however. Perhaps I can escort you to visit Dr. Baizhu at Bubu Pharmacy? It sounds like a symptom for a heart attack, which could be very dangerous if left untreated.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            baizhu,
+            "I... don't think I can help with this, unfortunately, Mr. Zhongli...",
+            "5h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    tsumimin13,
+    "In Amurta. Finished all my assignments, went to sleep peacefully. THEN I WAKE UP WITH 5 PAPERS ALL DUE IN 4 DAYS. HELLO LORD OF DENDRO??? I NEED TIME PLEASE THANK YOU",
+    "5h",
+    "images/tweet/tsumimin13.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            nahida,
+            "I'm very sorry, but matters regarding curriculum and assignments are not under my direct supervision... Perhaps my acting grand sage <span class='tag'>@scribealhaitham</span> can help you, if you could tell us which course you are currently attending?",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "It's currently outside my working hours.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            "As your senior, I can relate to this... Would you like some pointers? PM me.",
+            "5h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    lilyluvs,
+    "am i actually getting rizzed up bc someone left a bouquet of calla lilies on my front door🧍‍♀️",
+    "5h",
+    "images/tweet/lilyluvs.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            kaeya,
+            "Wow, I wonder who did that. How very nice of that person.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            amber,
+            "?????? You told me to deliver those flowers!!!!!",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "Amber. Why.",
+            "5h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    amurtacoco,
+    "when da cute haravatat boy in my group project compliments my work 🥰🥰🥰🥰💗✨💓💗✨✨🥰💗✨💗✨🥰💓💓💗🥰😌",
+    "5h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            alhaitham,
+            "The research topic you picked were an intriguing subject, and I certainly didn't expect the thesis to be so thoroughly polished and properly cited. It deserves a praise.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Also we're quite literally dating, why wouldn't I compliment you knowing the efforts you put into your work?",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "Ladies and gentleman, the most romantic man in Sumeru Akademiya.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Why thank you.",
+            "5h",
+        ),
+    ]
+))
+
+//
+
+Tweets.push(new Tweet(
+    ++i,
+    Reicrane,
+    "So.. I saw a chicken, freezing and shaking. I was worried and feeling bad for the chicken so I helped it by placing it on a broth, I helped it, but my sister called me a murder.. Idkwhy :((",
+    "6h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    wwflwr,
+    "<span class='tag'>@tartartartaglia</span> do you like dogs? I can be one. WOOF BARK BARK SNARLS 🐕",
+    "6h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Silentmoth,
+    "Ok but why does that funeral parlour consultant's coat look so edible?",
+    "6h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "6h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    CyanocittaCristata,
+    "I’m glad I got to talk more with you during your visit to Mond, Zhongli! Now I’m starting to want to plan a trip to Liyue… ",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    iamurworstnightmare,
+    "the funeral consultant is hot. hey...hey...we both have geo visions...can i introduce myself as a vision buddy?????",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    nia_ama,
+    "Never thought there'd be so many disquiet dead spirits in Sumeru (｡•́︿•̀｡) Can the now-active dendro archon send help? Hello??? I've been singing to soothe the dead for some time here! ( ͒˃̩̩⌂˂̩̩ ͒)<br>At least, I've met someone cute from Sumeru City~♡<br>Next stop? Fontaine!",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    creamstewoah,
+    "called wanderer my beloved and he looked at me like i was his mom abandoning him at the ripe age of day 1. damn my bad ily tho mwah",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    imunlaukrknight,
+    "<span class='tag'>@FatuiOfficial</span> Okay if I go on ONE DATE with Dottore will you stop posting the pacer test copypasta on everything I post please (I will surely not regret this)",
+    "7h",
+    "images/tweet/imunlaukrknight.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    froggy,
+    "Day 906 of making almond tofu: it won't solidify and looks like soup. at least it tastes decent...? will update if i get food poisoning again.",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Zatara,
+    "Guys I just arrived in this world the other day and I found this at my nightstand, what in the fuck crack is that??!! And Why it does summons a fucking thunder whenever I touch it?!!",
+    "7h",
+    "images/tweet/Zatara.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    dendrodame,
+    "Faking a cough to go to Bubu Pharmacy again and hoping Dr. Baizhu needs to put his head on my chest to listen to my lungs",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    blue_rain,
+    "thinking abt the time i went to a tevyat map gallery and somebody booed when they showed snezhnaya",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    moraxsbrowserhistory,
+    "nah... tell me why this grown ass man just took my little nephew's tradings cards... can't have shit in inazuma city <span class='tag'>@generalkujou</span> do your JOB",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    cloudedxreality,
+    "I am seriously going to cry for the first time since I was ten-<br>Actually crying isn’t going to do anything<br>Brb gonna try to not cry for ¿?th time today and try to not get lost <3<br><br>(If I die, someone tell Albedo that I would let him hug me back ♥︎⚰️)",
+    "7h",
+    "images/tweet/cloudedxreality.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Psyscioneedssleep,
+    "Soooo just got an electro vison.... is this the universe telling my I'm a lesbian? I mean lady Ayaka is really pretty ngl...But like I still like guys tho.",
+    "7h",
+    "images/tweet/Psyscioneedssleep.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    cy,
+    "i just got the thousandth complaint of the day in my mailbox and i'm confused. what do you mean i can't just buy al haitham a billion mora ancient book? it's not like don't get anything from it, I get a great deal ou of it(ykwim). also he's pretty and that's a fact<br>↳ <a href='https://twitter.com/snow28751902/status/1615147882935615489' target='_blank'>source</a>",
+    "7h",
+    "images/tweet/cy.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    xoxozola,
+    "remind me to never travel wirh <span class='tag'>@gm_cyno</span> again, this is the 25th joke now (i’ve been counting). though i would still let him stomp on me 😇",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    AdeptusRouge,
+    "<span class='tag'>@demonconqueror</span> just liked my artwork. U + Me on a date when??? 👉👈 ",
+    "7h",
+    "images/tweet/AdeptusRouge.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    TrishinaPapaya,
+    "I LOVE YOU REX LAPIS (TRAP REMIX)<br>OUT NOW ON ITUNES",
+    "7h",
+    "images/tweet/TrishinaPapaya.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Blue_shades_liker ,
+    "Tried to take a bite out of my vision and got hit by lightning smh soooorry Raiden",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Pinkybabe,
+    "On my way to pursue a certain cavalry captain 🏃‍♀️💨",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    WeaselTrainer,
+    "Sorry <span class='tag'>@kavvvvveh</span>, I know where your keys are but I don't think I can get them. My heart is weak against buff handsome guys.<br>Maybe next time when they are actually lost I will find them for you!<br>(Contact me if you want someone to distract him tho!)",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    naleyuh,
+    "Cyno made me get this, and gave me no instructions as to how to use it. So, I shall figure it out myself... Kaveh, I must say this or I will simply pass away... You are so pretty it hurts.. Like seriously, I feel my heart about to jump out of my ribcage.",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    unknownyoa,
+    "THE GUY THAT I MET IN THE GRAND BAZAAR LIKE A MONTH AGO IS LIKE A COMPLETELY DIFFERENT PERSON??? GIRL I KNOW THE AKADEMIYA SUCKS BUT HUH,,,",
+    "7h",
+    "images/tweet/unknownyoa.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Ineedalifepls,
+    "Can fungus become a fun guy ?",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    N3r05352,
+    "GUYS ALBEDO AND I WENT ON OUR REGULAR DRAWING SCEINCE CHATS SESH AND AONIFUNVODFIUVIURET HE PUT A CELCIA IN MY HAIR AND SAID I LOOKED NICE OH EM GEE DYNNG also the mfr so talented gimme ur art sir and ur hand in marriage-",
+    "7h",
+    "images/tweet/N3r05352.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    kisakiss,
+    "pls gurl. i dont want to hear you sighing over my childhood friend again. its creeping me out. oh archons...",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    kazugoober,
+    "now the real question is why wont barbatos let me use the anemo slimes as pillows",
+    "7h",
+    "images/tweet/kazugoober.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    Scaramood,
+    "Meet the parents but make it Scara's edition. 💀",
+    "7h",
+    "images/tweet/Scaramood.jpeg",
+    0,
+    [
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xxx,
+            "",
+            "7h",
+        ),
+    ]
+))
+
+//
+
+Tweets.push(new Tweet(
+    ++i,
+    the_travelling_witch,
+    "you threw your jade chamber?? IN THIS ECONOMY???",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            meirin,
+            "HAHAHAHAHAHAHHAHH OH MY G O D",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "I'm a little lost. As far as I know, Liyue Harbor's economy is stable and prospering. Yes, the loss of the Jade Chamber is quite a deficit in terms of materials and labor, but I believe the safety of the citizens outweighs it all.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "hubby calm down it's a joke",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Ah.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            childe,
+            "babe gorgeous love please if i do the laundry will you stop reminding me about that incident 😭",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            the_travelling_witch,
+            "mayhaps \<3",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "h a h a w h i p p e d 🫵🏻",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Dear, you forgot to wash the dishes, I believe.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "sorry love darling dearest on it handsome don't you even worry",
+            "7h",
+        ),
+    ]
+))
+
+Tweets.push(new Tweet(
+    ++i,
+    kazuuaki,
+    "Hello everyone I am now a certified Alhaitham kisser did anyone win any bets",
+    "7h",
+    null,
+    0,
+    [
+        new Tweet(
+            ++i,
+            meirin,
+            "i hate you /lie",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            N3r05352,
+            "i am rich (real)",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            BitesTheDust,
+            "Welcome to the club! 🤭",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            solxilynx,
+            "🤝",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "🤦 Not another one.......",
+            "7h",
+        ),
+    ]
+))
+
+//
+// <span class='tag'>@tartartartaglia</span>
+//
 // cy.jpeg
-// https://twitter.com/snow28751902/status/1615147882935615489
+// 
 
-// TODO: Loop through Tweets and preload images
-// Tweets.map(async(t) => {
-//     await preload_image(t.getter("image"));
-//     return t;
-// });
-
-// or do the top ones only?
-// preload_image("images/tweet/zhongli1.jpeg");
-
-// or might need to do pagination? ;w;
