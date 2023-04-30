@@ -101,6 +101,24 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
+            meirin,
+            ">:( I WAS TRYING TO FLIRT WITH YOU",
+            "42m",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Oh. Apologies. Consider me flattered, then.",
+            "41m",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "🥰🥰🥰",
+            "41m",
+        ),
+        new Tweet(
+            ++i,
             childe,
             "ARCHONS ABOVE GET A ROOM",
             "40m",
