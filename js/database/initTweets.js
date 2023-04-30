@@ -749,7 +749,7 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             hutao,
-            "We have special clients for those who doesn't reside in Liyue!! :D",
+            "We have special packages for clients who doesn't reside in Liyue!! :D",
             "4h",
         ),
         new Tweet(
