@@ -9,15 +9,18 @@ var aether      = new Profile(++j, "travelaether", "Traveler", "aether.jpeg", "a
 var albedo      = new Profile(++j, "kof_albedo", "Albedo Kreideprinz ⟡ KOF", "albedo.jpeg", "albedo.jpeg", "Greetings.", "Mondstadt", 12);
 var alhaitham   = new Profile(++j, "scribealhaitham", "Al Haitham", "alhaitham.jpeg", "alhaitham.jpeg", "I was forced to partake in this.", "Sumeru", 28);
 var amber       = new Profile(++j, "outrideramber", "Amber 🏹🔥", "amber.jpeg", "amber.jpeg", "Knights of Favonius' Outrider at your service!", "Mondstadt");
+var ayato       = new Profile(++j, "kamisato_ayato", "Kamisato Ayato", "ayato.jpeg", "ayato.jpeg", "Yashiro commissioner / Kamisato clan's head / Kindly direct business enquiries through formal letters.", "Kamisato Residence, Inazuma");
 var baizhu      = new Profile(++j, "dr_baizhu", "Baizhu | Medicine Practicioner", "baizhu.jpeg", "baizhu.jpeg", "Please feel free to visit Bubu Pharmacy if you feel unwell, even if you don't have any mora to spare. Your wellbeing should be the utmost priority.", "Bubu Pharmacy, Liyue Harbor");
 var childe      = new Profile(++j, "tartartartaglia", "Childe 🐳", "childe.jpeg", "childe.jpeg", "Stay still girlie ;) | pfp @tart____a", "Liyue");
 var chongyun    = new Profile(++j, "spiritblade_exorcist", "Ch☯ngyun", "chongyun.jpeg", "chongyun.jpeg", "PM me if you need help with vanquishing evil spirits!");
 var cyno        = new Profile(++j, "gm_cyno", "Cyno", "cyno.jpeg", undefined, "Be careful of the religious group who has been going around to make people's life harder on purpose: The Diffi Cult.");
 var diluc       = new Profile(++j, "diluc_ragnvindr", "Diluc Ragnvindr", "diluc.jpeg", "diluc.jpeg", "Angel Share & Dawn Winery owner. Please stop messaging me, I will never give 'special discounts' to any mortal or gods alike.", "Mondstadt");
-var dottore     = new Profile(++j, "dodrugsresponsibly", "Segment #71", "dottore.jpeg", "dottore.jpeg", "", "Right behind you.");
+var dottore     = new Profile(++j, "dodrugsirresponsibly", "Segment #71", "dottore.jpeg", "dottore.jpeg", undefined, "Right behind you.");
+var ei          = new Profile(++j, "Raiden.Shogun", "Raiden Shogun", "ei.jpeg", "ei.jpeg", "", "Inazuma");
 var fatui       = new Profile(++j, "Fatui_Official", "Fatui_Official", "Fatui_Official.jpeg", "Fatui_Official.jpeg", "Official account of the Fatui organization (real)", "Snezhnaya");
 var heizou      = new Profile(++j, "shikanoin_heizou", "Shikanoin Heizou", "heizou.jpeg", "heizou.jpeg", "Not my best looking picture but the developers said my original picture looks 'sus' and told me to change it... What does it even mean?? I'm the least suspicious person!", "Inazuma");
 var hutao       = new Profile(++j, "hutaosintaon", "Hu Tao 🏮⚰️🦋", "hutao.jpeg", "hutao.jpeg", "Special discounts for Adventurer's Guild's adventurers! Buy 1 coffin to get 1 coffin for free!", "The mortal realm (for now)");
+var itto        = new Profile(++j, "the_one_and_only_oni", "Arataki Numero Uno Itto", "itto.jpeg", "itto.jpeg", "NO 1 BEETLE FIGHTER CHAMPION, LEADER OF ARATAKI GANG, THE NUMBER ONE ONI!!!", "Hanamizaka");
 var jean        = new Profile(++j, "jean_gunnhildr", "Jean Gunnhilder / KOF Acting Grand Master", "jean.jpeg", "jean.jpeg", "I am not active much on this app. Please report issues directly through a Knights of Favonius personnel, we will look into it as fast as possible.", "KOF Headquarters, Mondstadt");
 var kaveh       = new Profile(++j, "kavvvvveh", "🌻 Kaveh 🌷", "kaveh.jpeg", "kaveh.jpeg", "Kshahrewar graduate | Master architect | Wine connoiseour | Palace of Alcazarzaray my beloved magnum opus | Follow for aesthetic photos and beauty tips!", "Sumeru");
 var kaeya       = new Profile(++j, "kaeyalberich", "Oh woe is me", "kaeya.jpeg", "kaeya.jpeg", "If Jean is seeing this - I'm most definitely not skipping work!", "Fieldwork ;)");
@@ -25,17 +28,19 @@ var lisa        = new Profile(++j, "librarianlady", "🌹", "lisa.jpeg", "lisa.j
 var lumine      = new Profile(++j, "luminescentstars", "Lumine", "lumine.jpeg", "lumine.jpeg", "", "The Abyss");
 var nahida      = new Profile(++j, "dendro_archon", "🍀 Lesser Lord Kusanali 🌵", "nahida.jpeg", "nahida.jpeg", "Sumeru's Dendro Archon. It is nice to meet you!", "Sanctuary of Surasthana");
 var pantalone   = new Profile(++j, "regrator_fatui", "9th of Fatui Harbingers", "pantalone.jpeg", "pantalone.jpeg", "If you wish to talk business, please be a dear and contact the staffs in any Northland Banks branch near you.", "-");
+var sara        = new Profile(++j, "kujou.sara", "Kujou Sara | Tenryou Commission", "sara.jpeg", undefined, "", "");
 var sucrose     = new Profile(++j, "fructose", "Sucrose / KOF / Alchemist", "sucrose.jpeg", "sucrose.jpeg", "Enriching the world by transforming living things with the power of alchemy! Currently working on: Mist Flower Project 3, Version 17, Enlargement Trial", "KOF Alchemy Lab");
 var tighnari    = new Profile(++j, "bigtallears", "Tighnari 🌳🏕", "tighnari.jpeg", "tighnari.jpeg", "Chief Officer of the Forest Rangers", "Avidya Forest");
+var varka       = new Profile(++j, "kof_varka", "KOF Grand Master Varka", "blank.jpeg", undefined, "", "");
 var venti       = new Profile(++j, "ventithebard", "Mond's #1 Bard 🎵", "venti.jpeg", "venti.jpeg", "Ehe~", "The city of freedom");
-var wanderer    = new Profile(++j, "user7423984", "x", "wanderer.jpeg", undefined, "What a farce", undefined);
-var xiao        = new Profile(++j, "demonconqueror", "Xiao", "xiao.jpeg", "", undefined, "Liyue");
+var wanderer    = new Profile(++j, "user7423984", "x", "blank.jpeg", undefined, "what a farce", undefined);
+var xiao        = new Profile(++j, "demonconqueror", "Xiao", "xiao.png", "xiao.jpeg", undefined, "Liyue");
 var xingqiu     = new Profile(++j, "books_and_literatures", "Xingqiu", "xingqiu.jpeg", "xingqiu.jpeg", "Currently re-reading: Legend of the Shattered Halberd Vol.6", "Wanwen Bookhouse");
-var yunjin      = new Profile(++j, "yunjin_yunhanopera", "云堇 | Yun-Han Opera Troupe", "yunjin.jpeg", "yunjin.jpeg", "Director, playwright, and singer of the Yun-Han Opera Troupe. Follow to get notified of our next performance at Heyu Tea House!", "Liyue Harbor");
+var yunjin      = new Profile(++j, "yunjin.yunhanopera", "云堇 | Yun-Han Opera Troupe", "yunjin.jpeg", "yunjin.jpeg", "Director, playwright, and singer of the Yun-Han Opera Troupe. Follow to get notified of our next performance at Heyu Tea House!", "Liyue Harbor");
 var zhongli     = new Profile(++j, "notrexlapis", "Zhongli 🔸 Wangsheng Funeral Parlor Consultant", "zhongli.jpeg", "zhongli.jpeg", "Greetings. Wangsheng Funeral Parlor welcomes you anytime (Director Hu asked me to put this).", "Liyue Harbor", 45);
 
 // Initialize Profiles (People)
-var meirin      = new Profile(++j, "zhongrinofficial", "✾ mei/rin ✾ <span class='vip'>👑</span>", "meirin.jpeg", "meirin.jpeg", "developer. zhongrin teahouse co-owner. wife of <span class='tag'>@notrexlapis</span> 💍💞", "Liyue");
+var meirin = new Profile(++j, "zhongrinofficial", "✾ mei/rin ✾ <span class='vip'>👑</span>", "meirin.jpeg", "meirin.jpeg", "developer. zhongrin teahouse co-owner. wife of <span class='tag'>@notrexlapis</span> 💍💞", "Liyue");
 var randomnpc62883 = new Profile(++j, "randomnpc62883", "randomnpc62883", undefined, undefined, "", "");
 
 var albedoshusband = new Profile(++j, "albedoshusband", "misha <3 <span class='vip'>🌟</span>", "albedoshusband.jpeg", undefined, "i'm totally straight ", "albedo's DMs");
@@ -93,11 +98,10 @@ var Scaramood = new Profile(++j, "Scaramood", "Ames <span class='vip'>🌟</span
 var the_travelling_witch = new Profile(++j, "the_travelling_witch", "Holly <span class='vip'>🌟</span>", "the_travelling_witch.jpeg", undefined, "no firstborns as payment please, i only take cash or credit (unless your name is xiao or childe, i’d take you too, in more ways than one)", "The Grand Narukami Shrine");
 var kazuuaki = new Profile(++j, "kazuuaki", "kazu <span class='vip'>🌟</span>", "kazuuaki.jpeg", undefined, "Idk what to put here tbh JDSJ", "Your heart <3");
 
-var xxx = new Profile(++j, "xxx", "name", undefined, undefined, "", "");
-
 Profiles.push(
-    aether, albedo, alhaitham, childe, chongyun, cyno, diluc, dottore, fatui, heizou, hutao, jean, kaveh, kaeya, 
-    lisa, lumine, nahida, pantalone, sucrose, tighnari, venti, wanderer, xiao, xingqiu, yunjin, zhongli
+    aether, albedo, alhaitham, amber, ayato, baizhu, childe, chongyun, cyno, diluc, dottore, ei, fatui, heizou, 
+    hutao, itto, jean, kaveh, kaeya, lisa, lumine, nahida, pantalone, sara, sucrose, tighnari, varka, venti, 
+    wanderer, xiao, xingqiu, yunjin, zhongli
 );
 Profiles.push(
     meirin, randomnpc62883,
@@ -107,7 +111,7 @@ Profiles.push(
     iamurworstnightmare, nia_ama, creamstewoah, imunlaukrknight, froggy, Zatara, dendrodame, blue_rain,
     moraxsbrowserhistory, cloudedxreality, Psyscioneedssleep, cy, xoxozola, AdeptusRouge, TrishinaPapaya, 
     Blue_shades_liker, Pinkybabe, WeaselTrainer, naleyuh, unknownyoa, Ineedalifepls, N3r05352, kisakiss, kazugoober,
-    Scaramood, the_travelling_witch,
+    Scaramood, the_travelling_witch, kazuuaki
 );
 
 

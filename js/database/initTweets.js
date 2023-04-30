@@ -49,8 +49,14 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             celestiebestie,
-            "Can I have one cup and mayhaps peruse the seat because it would be a waste to not drink tea while it's hot.",
+            "Can I have one cup and mayhaps peruse the seat beside you because it would be a waste to not drink tea while it's hot.",
             "2m",
+        ),
+        new Tweet(
+            ++i,
+            BitesTheDust,
+            "I'd like to take the second cup...",
+            "3m",
         ),
         new Tweet(
             ++i,
@@ -60,11 +66,22 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
+            Crystalflygeo,
+            "If.... If I bring my own cup can I join........",
+            "3m",
+        ),
+        new Tweet(
+            ++i,
             yunjin,
             "Absolutely! Today's story is such an intriguing tale!",
             "4m",
         ),
-        
+        new Tweet(
+            ++i,
+            Psyscioneedssleep,
+            "The amount of Zhongli simps in this thread ☠️",
+            "4m",
+        ),
     ]
 ))
 
@@ -172,14 +189,32 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
-            cyno,
-            "Please tell me this app has a mute or a block function.",
+            Psyscioneedssleep,
+            "Protip: do it with no shirt.",
             "1h",
         ),
         new Tweet(
             ++i,
             tighnari,
             "Oh dear archons",
+            "1h",
+        ),
+        new Tweet(
+            ++i,
+            cyno,
+            "Please tell me this app has a mute or a block function.",
+            "1h",
+        ),
+        new Tweet(
+            ++i,
+            wwflwr,
+            "[Comment deleted by moderation]",
+            "1h",
+        ),
+        new Tweet(
+            ++i,
+            wwflwr,
+            "gdi not the n.sfw filter kicking in-",
             "1h",
         ),
     ]
@@ -982,8 +1017,6 @@ Tweets.push(new Tweet(
     ]
 ))
 
-//
-
 Tweets.push(new Tweet(
     ++i,
     Reicrane,
@@ -994,14 +1027,26 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            meirin,
+            "...... i. what.",
             "6h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            cyno,
+            "Hmm. I'm not sure either. That just sounds like you made chicken soup.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            ".........",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "It's a shame that Little Timmy isn't in this app...",
             "6h",
         ),
     ]
@@ -1017,14 +1062,26 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            childe,
+            "i love dogs! our family has a few back in snezhnaya - they're a bunch of loyal, spoiled, and strong dogs who can pull a sled across the country's snowy terrains!",
             "6h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            childe,
+            "wait",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            childe,
+            "dm me? 🙏🏻",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            wanderer,
+            "what the fuck is even this thread",
             "6h",
         ),
     ]
@@ -1040,14 +1097,50 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            zhongli,
+            "Dear, could you cease from munching on my coat, please?",
             "6h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            Silentmoth,
+            "No.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "I will buy you the finest silk robe for you to chew on, my dear.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            Silentmoth,
+            "Finnnneeeeee.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Thank you, beloved.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Please don't chew on my tie either, my love.",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            Silentmoth,
+            ";(((((",
+            "6h",
+        ),
+        new Tweet(
+            ++i,
+            hutao,
+            "Our funeral consultant is so capable he can train moths, everyone!",
             "6h",
         ),
     ]
@@ -1063,14 +1156,8 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
-        ),
-        new Tweet(
-            ++i,
-            xxx,
-            "",
+            zhongli,
+            "It was my pleasure. Your tales were very intriguing to listen to. Please do come over to the Wangsheng Funeral Parlor when you arrive at Liyue. It would be an honor to escort you around the harbor and show you around the places you wish to visit. If I remember correctly, you mentioned being interested in trying out Liyuean cuisines, yes? There is an establishment called Wanmin Restaurant, and I think you will find their dishes most unique and delicious.",
             "7h",
         ),
     ]
@@ -1086,14 +1173,20 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            zhongli,
+            "My, thank you for the compliment, Miss. Aastha.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            iamurworstnightmare,
+            "YOU KNOW ME????",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Yes, I've read your books; they make for a lovely read and your unique writing style is certainly very distinc to the other authors in the field. I would love to discuss them over a fresh pot of tea, if you don't mind?",
             "7h",
         ),
     ]
@@ -1102,21 +1195,15 @@ Tweets.push(new Tweet(
 Tweets.push(new Tweet(
     ++i,
     nia_ama,
-    "Never thought there'd be so many disquiet dead spirits in Sumeru (｡•́︿•̀｡) Can the now-active dendro archon send help? Hello??? I've been singing to soothe the dead for some time here! ( ͒˃̩̩⌂˂̩̩ ͒)<br>At least, I've met someone cute from Sumeru City~♡<br>Next stop? Fontaine!",
+    "Never thought there'd be so many disquiet dead spirits in Sumeru (｡•́︿•̀｡)<br>Can the now-active dendro archon send help? Hello??? I've been singing to soothe the dead for some time here! ( ͒˃̩̩⌂˂̩̩ ͒)<br><br>At least, I've met someone cute from Sumeru City~♡<br><br>Next stop? Fontaine!",
     "7h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
-        ),
-        new Tweet(
-            ++i,
-            xxx,
-            "",
+            nahida,
+            "Thank you very much for your help. Please do visit the Sanctuary of Surasthana so we can discuss more on how I can help you?",
             "7h",
         ),
     ]
@@ -1132,14 +1219,32 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            wanderer,
+            "don't kiss me in public",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            creamstewoah,
+            "mwah mwah <3",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            wanderer,
+            "disgusting",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            wanderer,
+            "do it again",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            ayato,
+            "....",
             "7h",
         ),
     ]
@@ -1148,21 +1253,33 @@ Tweets.push(new Tweet(
 Tweets.push(new Tweet(
     ++i,
     imunlaukrknight,
-    "<span class='tag'>@FatuiOfficial</span> Okay if I go on ONE DATE with Dottore will you stop posting the pacer test copypasta on everything I post please (I will surely not regret this)",
+    "<span class='tag'>@FatuiOfficial</span> Okay if I go on ONE DATE with <span class='tag'>@dodrugsirresponsibly</span> will you stop posting the pacer test copypasta on everything I post please (I will surely not regret this)",
     "7h",
     "images/tweet/imunlaukrknight.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            fatui,
+            "The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            dottore,
+            "I can't believe that worked. 7pm today. Wear safety goggles.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            stonyballs,
+            "<a href='https://www.tumblr.com/snobwaffles/715241850151272448/' target=_blank>BEANS</a>",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            dottore,
+            "I do not know why but that word is triggering me and I do not like it.",
             "7h",
         ),
     ]
@@ -1178,14 +1295,32 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            xiao,
+            "Stop doing useless things.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            zhongli,
+            "Please spend some time with Xiao, he misses you terribly.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xiao,
+            "no that is not waht I meant",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xiao,
+            "Anyway just come to Wangshu Inn already.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            xiao,
+            "I'll be waiting.",
             "7h",
         ),
     ]
@@ -1201,14 +1336,20 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            sara,
+            "It seems as if the Shogun has deemed you worthy. Congratulations.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            nahida,
+            "Oh my, another descender! How curious...",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            aether,
+            "And here I thought this whole information should be kept secret...",
             "7h",
         ),
     ]
@@ -1224,14 +1365,26 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            baizhu,
+            "Ah. I see now. That's why the symptoms and the examination result did not match...",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            hutao,
+            "Another day, another patient who pines for our local doctor! We've been getting a lot of those lately, huh?",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            hutao,
+            "Everyone remember, if things don't work out at Bubu Pharmacy, the Wangsheng Funeral House will be happy to assist you! <3",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            baizhu,
+            "Director Hu, please...",
             "7h",
         ),
     ]
@@ -1247,14 +1400,20 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            childe,
+            "wait what who's talking badly about snezhnaya??? >:T",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            dottore,
+            "Considering the region is yet to be a̵̮̼͋̐d̵̛͕͍͆̿͜d̵͇͛͝ȇ̶͚̚d̵̗͓̄̍̕ ̷̲̻̏ḯ̶̺̰̘̉̿ṋ̵̟̖͇̯̒-̵̪͉͈͌̿̈͌g̷̬̲̗͠ͅa̷͙̭̘̓͜m̴̯̩̪̈́͋̊e̵̡̟̮̖͆͂͋̄̕͝ͅ,̸̻̈ ̵̝̄̕ṯ̷̬̓̓̇h̷̖̜̀e̴̛̹̺͍y̵̪̭̌̕ ̸̭̘̙̚s̷̳̲̱͗h̶̛̦̘̑o̷͉̱̯̍ů̷̠͉̘̃l̵̼̋̀͝d̷̢̲̭͊̐ ̶̡̬͉̈̒͘r̴̙̬͊̌̌e̷̳͚̫̍̄̀ā̸̙̤̜̄l̴̯͝ḽ̴̜͑̓͝ͅÿ̵͕́ ̶̣̎͝ȟ̷̡͇̩o̵̟͇̾͊̒l̴͖̬͝d̶̢̲̀́̾ ̴̙̌͑͐t̴͖̞̞̅h̷̝͊̌̈́ẽ̴͕̠͙̄̈́i̶̢̼̒r̶̼̳̭͌̓ ̶͈̊̏t̵̼̔o̶̰͐̕͘n̷͖̲̫̊̍̀ğ̵̲ů̸̡̹̻̑ė̶̟̬̙.̷̡͙͊̀͝",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "DOTTORE SHUT",
             "7h",
         ),
     ]
@@ -1263,21 +1422,21 @@ Tweets.push(new Tweet(
 Tweets.push(new Tweet(
     ++i,
     moraxsbrowserhistory,
-    "nah... tell me why this grown ass man just took my little nephew's tradings cards... can't have shit in inazuma city <span class='tag'>@generalkujou</span> do your JOB",
+    "nah... tell me why this grown ass man just took my little nephew's tradings cards... can't have shit in inazuma city <span class='tag'>@kujou.sara</span> do your JOB",
     "7h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            sara,
+            "I'm very sorry. Please lodge a formal report at the Tenryou commission and we'll take care of it at once.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            itto,
+            "WAIT THAT MAKES IT SOUND LIKE I'M STEALING FROM A LITERAL CHILD THAT IS NOT WHAT HAPPENED THE LIL GUY PROMISED TO GIVE THEM UP IF I WON ROCK-PAPER-SCISSORS AND I WON!!!! FAIR AND SQUARE!!!!! I SWEAR ON THE ARATAKI GANG'S NAME!!!!",
             "7h",
         ),
     ]
@@ -1293,14 +1452,14 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            albedo,
+            "My dear, would you like to talk about it? You know my laboratory is always open. It's perfectly alright to cry when you are in distress, and you can always do so on my shoulder. Let's work on this together, alright? Please drop by soon. I am worried.",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            sucrose,
+            "I'm sending you hugs... Please let me know if you want to talk. I'm not good at talking or giving advice, but I'm always willing to listen... And if you want, I can show you my latest experiment to distract you from the bad thoughts!",
             "7h",
         ),
     ]
@@ -1316,14 +1475,32 @@ Tweets.push(new Tweet(
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
+            ayato,
+            "... Didn't you just make out with my sister quite literally twelve hours ago?",
             "7h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
+            Psyscioneedssleep,
+            "...... Guilty as charged.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            diluc,
+            "Beloved, when will you visit Mondstadt? I would be more than happy to teach you how to wield your Vision.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "Electro and Pyro would be a dangerous combination. Come to Sumeru instead. Dendro and Electro matches well and is relatively safe. A controlled environment is always safer for learning something new.",
+            "7h",
+        ),
+        new Tweet(
+            ++i,
+            aether,
+            "I'm with Dainsleif right now and since he doesn't have an account here he told me to say: 'I am well-versed in training people with Visions, given my background. You know where to find me.'",
             "7h",
         ),
     ]
@@ -1333,21 +1510,39 @@ Tweets.push(new Tweet(
     ++i,
     cy,
     "i just got the thousandth complaint of the day in my mailbox and i'm confused. what do you mean i can't just buy al haitham a billion mora ancient book? it's not like don't get anything from it, I get a great deal ou of it(ykwim). also he's pretty and that's a fact<br>↳ <a href='https://twitter.com/snow28751902/status/1615147882935615489' target='_blank'>source</a>",
-    "7h",
+    "8h",
     "images/tweet/cy.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            kaveh,
+            "<span class='tag'>@scribealhaitham</span> YOU HAD A SUGAR MOMMY THIS ENTIRE TIME????????",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            alhaitham,
+            "She's my girlfriend, she's allowed to buy me things. I don't understand why people keep complaining about this when it's her own money.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            ".......... 😔",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "<span class='tag'>@notrexlapis</span> can.... can we adopt this one... he's so pretty and soggy... pls....",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            zhongli,
+            "Dear, you've just adopted the Dendro Archon herself, let's try to control ourselves, shall we?",
+            "8h",
         ),
     ]
 ))
@@ -1356,21 +1551,51 @@ Tweets.push(new Tweet(
     ++i,
     xoxozola,
     "remind me to never travel wirh <span class='tag'>@gm_cyno</span> again, this is the 25th joke now (i’ve been counting). though i would still let him stomp on me 😇",
-    "7h",
+    "8h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "Well, here's the 26th joke: What vegetable is cool, but not that cool?",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "Radish.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "bye im dead",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            BitesTheDust,
+            "Radish 🤣😂",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            cyno,
+            "What kind of shoes does a lazy person wear?",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            cyno,
+            "Loafers.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            "STOP",
+            "8h",
         ),
     ]
 ))
@@ -1379,21 +1604,33 @@ Tweets.push(new Tweet(
     ++i,
     AdeptusRouge,
     "<span class='tag'>@demonconqueror</span> just liked my artwork. U + Me on a date when??? 👉👈 ",
-    "7h",
+    "8h",
     "images/tweet/AdeptusRouge.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            xiao,
+            "I don't understand. We're on a date. Sitting across from each other.",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            zhongli,
+            "I believe this is what the mortals call 'flirting' or 'being silly'.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            xiao,
+            "Oh.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            xiao,
+            "I don't understand.",
+            "9h",
         ),
     ]
 ))
@@ -1402,21 +1639,21 @@ Tweets.push(new Tweet(
     ++i,
     TrishinaPapaya,
     "I LOVE YOU REX LAPIS (TRAP REMIX)<br>OUT NOW ON ITUNES",
-    "7h",
+    "8h",
     "images/tweet/TrishinaPapaya.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            zhongli,
+            "What is an 'iTunes'?",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            meirin,
+            "SWEETIE WRONG WORLD WRONG WORLD",
+            "8h",
         ),
     ]
 ))
@@ -1425,21 +1662,21 @@ Tweets.push(new Tweet(
     ++i,
     Blue_shades_liker ,
     "Tried to take a bite out of my vision and got hit by lightning smh soooorry Raiden",
-    "7h",
+    "8h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            ei,
+            "Contrary to popular belief, I do not care what you do with the electro visions you all receive as long as you do not use it for nefarious purposes, but please be careful as it will zap you if you are not yet used to controlling it.",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            ei,
+            "But why would you people try to bite it or put it anywhere near your mouth? Is this some new mortal custom I'm not aware of? Please, enlighten me.",
+            "8h",
         ),
     ]
 ))
@@ -1448,21 +1685,33 @@ Tweets.push(new Tweet(
     ++i,
     Pinkybabe,
     "On my way to pursue a certain cavalry captain 🏃‍♀️💨",
-    "7h",
+    "8h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            kaeya,
+            "Can't catch me when I'm on a horse 🐴",
+            "8h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            kaeya,
+            "Wait.",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            varka,
+            "lol",
+            "8h",
+        ),
+        new Tweet(
+            ++i,
+            jean,
+            "Grand Master, please take care and come back soon.",
+            "8h",
         ),
     ]
 ))
@@ -1471,21 +1720,39 @@ Tweets.push(new Tweet(
     ++i,
     WeaselTrainer,
     "Sorry <span class='tag'>@kavvvvveh</span>, I know where your keys are but I don't think I can get them. My heart is weak against buff handsome guys.<br>Maybe next time when they are actually lost I will find them for you!<br>(Contact me if you want someone to distract him tho!)",
-    "7h",
+    "9h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            kaveh,
+            "WDYM DID THAT IDIOT TAKE MY KEYS AGAIN",
+            "9h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            alhaitham,
+            "I told you to put your keys on a separate container.",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "I don't have the money to buy a separate container.",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            alhaitham,
+            "That doesn't sound like it's my problem.",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "<span class='tag'>@WeaselTrainer</span> Can the weasels perform an assassination by any chance? 🙃",
+            "9h",
         ),
     ]
 ))
@@ -1494,44 +1761,62 @@ Tweets.push(new Tweet(
     ++i,
     naleyuh,
     "Cyno made me get this, and gave me no instructions as to how to use it. So, I shall figure it out myself... Kaveh, I must say this or I will simply pass away... You are so pretty it hurts.. Like seriously, I feel my heart about to jump out of my ribcage.",
-    "7h",
+    "9h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "You're doing great, mom.",
+            "9h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "(Please be normal under my mother's tweets or I'll arrest you.)",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            "It's good to have you around, ma'am! 🦊",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "Why thank you, madame! Us pretty people simply must stick together <3",
+            "9h",
         ),
     ]
-))
+)) 
 
 Tweets.push(new Tweet(
     ++i,
     unknownyoa,
     "THE GUY THAT I MET IN THE GRAND BAZAAR LIKE A MONTH AGO IS LIKE A COMPLETELY DIFFERENT PERSON??? GIRL I KNOW THE AKADEMIYA SUCKS BUT HUH,,,",
-    "7h",
+    "9h",
     "images/tweet/unknownyoa.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            wanderer,
+            "people change. get over it.",
+            "9h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            nahida,
+            "Now, now, what did we learn about interacting with people?",
+            "9h",
+        ),
+        new Tweet(
+            ++i,
+            wanderer,
+            "ugh",
+            "9h",
         ),
     ]
 ))
@@ -1540,21 +1825,33 @@ Tweets.push(new Tweet(
     ++i,
     Ineedalifepls,
     "Can fungus become a fun guy ?",
-    "7h",
+    "10h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "No but they can become a fun damentally serious problem if left untreated.",
+            "10h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            cyno,
+            "Get it?",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            tighnari,
+            "Smacking you both with a book.",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            cyno,
+            "Ouch.",
+            "10h",
         ),
     ]
 ))
@@ -1563,21 +1860,57 @@ Tweets.push(new Tweet(
     ++i,
     N3r05352,
     "GUYS ALBEDO AND I WENT ON OUR REGULAR DRAWING SCEINCE CHATS SESH AND AONIFUNVODFIUVIURET HE PUT A CELCIA IN MY HAIR AND SAID I LOOKED NICE OH EM GEE DYNNG also the mfr so talented gimme ur art sir and ur hand in marriage-",
-    "7h",
+    "10h",
     "images/tweet/N3r05352.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            albedo,
+            "Okay.",
+            "10h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            amber,
+            "Oh my god!!! Congrats on your marriage!!!",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "let's go ari!!! congratulations!!",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            sucrose,
+            "Congratulations on your marriage!!",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            jean,
+            "Congratulations!",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            kazuuaki,
+            "GASP CONGRATS!!!!!!!! (i'm inviting myself to your wedding) (no you don't get a say in this <3)",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "Congrats! You're going to have free wine in the wedding reception, yes? Don't forget to invite me!",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "Free wine you say? Hey, yall will need a bard to liven up the atmosphere, yes? ;)",
+            "10h",
         ),
     ]
 ))
@@ -1586,21 +1919,33 @@ Tweets.push(new Tweet(
     ++i,
     kisakiss,
     "pls gurl. i dont want to hear you sighing over my childhood friend again. its creeping me out. oh archons...",
-    "7h",
+    "10h",
     null,
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            diluc,
+            "Who's making you uncomfortable?",
+            "10h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            kaeya,
+            "Day 65295 and he has yet to figure it out 💀",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            diluc,
+            "Figure out what? And I haven't even lived that long, but I suppose math has never been your strong suit.",
+            "10h",
+        ),
+        new Tweet(
+            ++i,
+            kaeya,
+            "And your 'reading between the lines' skill is as poor as ever. Some things just never change, huh?",
+            "10h",
         ),
     ]
 ))
@@ -1609,21 +1954,27 @@ Tweets.push(new Tweet(
     ++i,
     kazugoober,
     "now the real question is why wont barbatos let me use the anemo slimes as pillows",
-    "7h",
+    "11h",
     "images/tweet/kazugoober.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            venti,
+            "Wait that sounds so fun who said I don't allow it??",
+            "11h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            venti,
+            "I mean what",
+            "11h",
+        ),
+        new Tweet(
+            ++i,
+            venti,
+            "How do you delete these tweets help",
+            "11h",
         ),
     ]
 ))
@@ -1632,32 +1983,30 @@ Tweets.push(new Tweet(
     ++i,
     Scaramood,
     "Meet the parents but make it Scara's edition. 💀",
-    "7h",
+    "11h",
     "images/tweet/Scaramood.jpeg",
     0,
     [
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            wanderer,
+            "no.",
+            "11h",
         ),
         new Tweet(
             ++i,
-            xxx,
-            "",
-            "7h",
+            wanderer,
+            "also don't call me by that name.",
+            "11h",
         ),
     ]
 ))
-
-//
 
 Tweets.push(new Tweet(
     ++i,
     the_travelling_witch,
     "you threw your jade chamber?? IN THIS ECONOMY???",
-    "7h",
+    "12h",
     null,
     0,
     [
@@ -1665,55 +2014,55 @@ Tweets.push(new Tweet(
             ++i,
             meirin,
             "HAHAHAHAHAHAHHAHH OH MY G O D",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             zhongli,
             "I'm a little lost. As far as I know, Liyue Harbor's economy is stable and prospering. Yes, the loss of the Jade Chamber is quite a deficit in terms of materials and labor, but I believe the safety of the citizens outweighs it all.",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             meirin,
             "hubby calm down it's a joke",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             zhongli,
             "Ah.",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             childe,
             "babe gorgeous love please if i do the laundry will you stop reminding me about that incident 😭",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             the_travelling_witch,
             "mayhaps \<3",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             meirin,
             "h a h a w h i p p e d 🫵🏻",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             zhongli,
             "Dear, you forgot to wash the dishes, I believe.",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             meirin,
-            "sorry love darling dearest on it handsome don't you even worry",
-            "7h",
+            "sorry love darling dearest i'm on it handsome don't you even worry <3 <3 <3",
+            "12h",
         ),
     ]
 ))
@@ -1722,7 +2071,7 @@ Tweets.push(new Tweet(
     ++i,
     kazuuaki,
     "Hello everyone I am now a certified Alhaitham kisser did anyone win any bets",
-    "7h",
+    "12h",
     null,
     0,
     [
@@ -1730,38 +2079,31 @@ Tweets.push(new Tweet(
             ++i,
             meirin,
             "i hate you /lie",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             N3r05352,
             "i am rich (real)",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             BitesTheDust,
             "Welcome to the club! 🤭",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             solxilynx,
             "🤝",
-            "7h",
+            "12h",
         ),
         new Tweet(
             ++i,
             kaveh,
             "🤦 Not another one.......",
-            "7h",
+            "12h",
         ),
     ]
 ))
-
-//
-// <span class='tag'>@tartartartaglia</span>
-//
-// cy.jpeg
-// 
-
