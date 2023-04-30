@@ -214,7 +214,7 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             wwflwr,
-            "gdi not the n.sfw filter kicking in-",
+            "gdi not the n.sfw filter kicking in... tf is this, character.ai???",
             "1h",
         ),
     ]
@@ -2085,6 +2085,12 @@ Tweets.push(new Tweet(
             ++i,
             N3r05352,
             "i am rich (real)",
+            "12h",
+        ),
+        new Tweet(
+            ++i,
+            kaeyatiddiesgobrrr,
+            "seconded :D",
             "12h",
         ),
         new Tweet(
