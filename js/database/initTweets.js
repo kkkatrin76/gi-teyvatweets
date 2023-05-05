@@ -865,7 +865,7 @@ Tweets.push(new Tweet(
 Tweets.push(new Tweet(
     ++i,
     solxilynx,
-    "Help me archons I just wanna do my job, and the client I'm meeting is this rat bastard.<br><br>Guys, if I disappear, contact Heizou and tell him he has yet to pay me my fees in full. I have a feeling this man's going to be a pai—",
+    "Help me archons I just wanna do my job, and the client I'm meeting is this rat bastard.<br><br>Guys, if I disappear, contact Heizou and tell him he has yet to pay me my fees in full. I have a feeling this man's going to be a pai—<br><br   ↳ <a href='https://twitter.com/UEAUWA/status/1565672304335458309' target='_blank'>source</a>",
     "5h",
     "images/tweet/solxilynx.jpeg",
     0,
@@ -1551,7 +1551,7 @@ Tweets.push(new Tweet(
 Tweets.push(new Tweet(
     ++i,
     cy,
-    "i just got the thousandth complaint of the day in my mailbox and i'm confused. what do you mean i can't just buy al haitham a billion mora ancient book? it's not like don't get anything from it, I get a great deal ou of it(ykwim). also he's pretty and that's a fact<br>↳ <a href='https://twitter.com/snow28751902/status/1615147882935615489' target='_blank'>source</a>",
+    "i just got the thousandth complaint of the day in my mailbox and i'm confused. what do you mean i can't just buy al haitham a billion mora ancient book? it's not like don't get anything from it, I get a great deal ou of it(ykwim). also he's pretty and that's a fact<br>   ↳ <a href='https://twitter.com/snow28751902/status/1615147882935615489' target='_blank'>source</a>",
     "8h",
     "images/tweet/cy.jpeg",
     0,
