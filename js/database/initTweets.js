@@ -119,21 +119,45 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
-            childe,
-            "ARCHONS ABOVE GET A ROOM",
+            lilyluvs,
+            "me <span class='tag'>@kaeyalberich</span> 👉👈🥺",
             "40m",
         ),
         new Tweet(
             ++i,
-            the_travelling_witch,
-            "<span class='tag'>@tartartartaglia</span> Let them continue :)",
+            kaeya,
+            "<span class='tag'>@lilyluvs</span> Angel's Share, 7pm tonight? 😉",
             "39m",
         ),
         new Tweet(
             ++i,
-            childe,
-            "<span class='tag'>@the_travelling_witch</span> yes love sorry love <333333",
-            "39m",
+            N3r05352,
+            "<span class='tag'>@kof_albedo</span> you. me. lunch? :D",
+            "36m",
+        ),
+        new Tweet(
+            ++i,
+            albedo,
+            "<span class='tag'>@N3r0@5352</span> Of course, my star.",
+            "35m",
+        ),
+        new Tweet(
+            ++i,
+            ayato,
+            "<span class='tag'>@creamstewoah</span> Don't forget you promised to drop by for dinner ;)",
+            "34m",
+        ),
+        new Tweet(
+            ++i,
+            albedo,
+            "<span class='tag'>@kamisato_ayato</span> 🫡 (ok but do you really have to do this under rin jie's thread)",
+            "34m",
+        ),
+        new Tweet(
+            ++i,
+            meirin,
+            "WHY ARE YOU PEOPLE FLIRTING UNDER THIS THREAD",
+            "30m",
         ),
     ]
 ))
