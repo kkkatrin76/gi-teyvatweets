@@ -149,7 +149,7 @@ Tweets.push(new Tweet(
         ),
         new Tweet(
             ++i,
-            albedo,
+            creamstewoah,
             "<span class='tag'>@kamisato_ayato</span> 🫡 (ok but do you really have to do this under rin jie's thread)",
             "34m",
         ),
