@@ -1041,7 +1041,7 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             alhaitham,
-            "Also we're quite literally dating, why wouldn't I compliment you knowing the efforts you put into your work?",
+            "Also we're quite literally dating, puppy. Why wouldn't I compliment you knowing the efforts you put into your work?",
             "5h",
         ),
         new Tweet(
@@ -1053,7 +1053,13 @@ Tweets.push(new Tweet(
         new Tweet(
             ++i,
             alhaitham,
-            "Why thank you.",
+            "How rare of you to compliment me. Thank you.",
+            "5h",
+        ),
+        new Tweet(
+            ++i,
+            kaveh,
+            "🙄",
             "5h",
         ),
     ]
